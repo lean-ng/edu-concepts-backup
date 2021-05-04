@@ -4,16 +4,43 @@ html {
 }
 
 body {
-  margin: 0 auto;
-  max-width: 50em;
+  margin: 0;
   line-height: 1.5;
-  padding: 4em 1em;
   color: #555;
 }
 
+main {
+  margin: 0 auto;
+  max-width: 50em;
+  padding: 0em 1em;
+}
+
+header {
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
 h2 {
-  margin-top: 1em;
-  padding-top: 1em;
-  font-weight: 500;
+  font-size: 32px;
+}
+
+h1,
+h2,
+h3 {
   color: #333;
+  font-weight: 500;
+}
+
+article {
+  padding: 0 1rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
