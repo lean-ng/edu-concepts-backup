@@ -12,5 +12,9 @@ import { AppComponent } from './app.component';
   // Exportierte Deklarationen, die anderen Modulen bereitgestellt werden
   exports: [
   ],
+  // Bootstrap-Komponenten
+  bootstrap: [
+    AppComponent
+  ]
 })
 export class AppModule {}

@@ -10,9 +10,7 @@
       <h1>Angular Concepts</h1>
     </header>
     <main>
-      <div id="root">
-        <h2>Welcome to our lean Web App</h2>
-      </div>
+      <app-root></app-root>
       <section>
         <article>
           <h3>Components</h3>
@@ -27,14 +25,26 @@
           <h3>Modules</h3>
           <p>
             Ein Modul ist eine Codeklasse dekoriert als <code>NgModule</code>.
-            Damit eine Komponente benutzt werden kann, muss sie in einem Modul deklariert werden.
-            Dies geschieht im Dekorator der zusammengefasst folgende Deklarationen enthält:
-            <ul>
-              <li>Komponenten, die dieses Modul deklariert</li>
-              <li>Importierte Module, die von diesem Modul benutzt werden</li>
-              <li>Komponenten, die dieses Modul zur Verwendung in anderen Modulen exportiert</li>
-              <li>Bootstrap-Komponenten (die zum Anwendungsstart benötigt werden)</li>
-            </ul>
+            Damit eine Komponente benutzt werden kann, muss sie in einem Modul
+            deklariert werden. Dies geschieht im Dekorator der zusammengefasst
+            folgende Deklarationen enthält:
+          </p>
+          <ul>
+            <li>Komponenten, die dieses Modul deklariert</li>
+            <li>Importierte Module, die von diesem Modul benutzt werden</li>
+            <li>
+              Komponenten, die dieses Modul zur Verwendung in anderen Modulen
+              exportiert
+            </li>
+            <li>
+              Bootstrap-Komponenten (die zum Anwendungsstart benötigt werden)
+            </li>
+          </ul>
+          <p>
+            Der Anwendungsstart erfolgt, indem ein Hauptmodul von der jeweiligen
+            Angular-Plattform gebootstrapt wird. Dieses Hauptmodul definiert die
+            Bootstrap-Komponente, die von Angular in der
+            <code>index.html</code> gerendert wird.
           </p>
         </article>
       </section>
