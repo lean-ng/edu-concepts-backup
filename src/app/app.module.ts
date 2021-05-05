@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CoreModule } from './core/core.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -9,7 +10,8 @@ import { AppComponent } from './app.component';
   ],
   // Module, deren Deklarationen importiert werden
   imports: [
-    BrowserModule
+    BrowserModule,
+    CoreModule
   ],
   // Exportierte Deklarationen, die anderen Modulen bereitgestellt werden
   exports: [
